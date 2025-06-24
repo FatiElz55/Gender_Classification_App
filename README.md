@@ -1,4 +1,3 @@
-﻿# FatiElz55-Gender_Classification_App
 # Gender Classification App
 
 This is a simple Flask web application that uses a pre-trained deep learning model to classify the gender of a person from an uploaded image.
@@ -16,22 +15,12 @@ It’s intended for learning and testing basic image classification in a web env
 
 ---
 
-## 🗂️ Project Structure
-
-Gender_Classification_App/
-├── app.py # Flask app
-├── gender_classifier.h5 # Pre-trained model
-├── static/ # CSS or JS files (optional)
-├── templates/ # HTML files
-│ └── index.html
-├── requirements.txt # Python dependencies
-└── README.md
-
 ## 🛠️ Requirements
 
 Install Python packages before running:
 
 > pip install -r requirements.txt
+
 ### Contents of requirements.txt:
 
 Flask
@@ -57,7 +46,7 @@ http://127.0.0.1:5000/ (it may be different for you in general get it throught m
 => Result is displayed instantly.
 
 ## 🤖 Model Info
-=>Type: Convolutional Neural Network (CNN)
+=> Type: Convolutional Neural Network (CNN)
 
 => Trained on: UTKFace Dataset
 
@@ -66,7 +55,7 @@ http://127.0.0.1:5000/ (it may be different for you in general get it throught m
 ## 📌 Notes
 For best results, use frontal face images.
 
-You can retrain or replace the model with your own dataset if desired.
+You can retrain or replace the model with your own dataset if desired. (check the classification model in this repository: "I'll drop it soon")
 
 ## 📧 Contact
 For questions or feedback: elzfati55@gmail.com
